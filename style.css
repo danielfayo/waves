@@ -397,7 +397,8 @@ nav {
 }
 
 #customer_content {
-    max-width: 1040px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .customers_card {
@@ -559,6 +560,7 @@ nav {
 #banner_content {
     margin: auto;
     background: url(./photos/banner_img.jpg);
+    background-repeat: no-repeat;
     object-fit: cover;
     background-position: center;
     padding: 100px 140px;
