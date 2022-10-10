@@ -6,7 +6,6 @@ nav {
     max-width: 1300px;
     margin: auto;
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
 }
@@ -20,10 +19,15 @@ nav {
     color: #8447E9;
 }
 
+.nav_items {
+    
+}
+
 .nav_items ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 24px;
+    margin-left: 48px;
 }
 
 .nav_items li {
@@ -34,11 +38,29 @@ nav {
     line-height: 20px;
     display: flex;
     justify-content: center;
+    padding: 8px 12px;
     color: #0f0f0f;
+    transition: ease-in 300ms;
+    text-decoration-style: none;
+}
+
+.nav_items li:hover {
+    background-color: #8447E9;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+.nav_items a {
+    text-decoration: none;
 }
 
 #active {
-    color: #8447E9;
+    background-color: #8447E9;
+    color: #F5F5F5;
+}
+
+#acitve:hover {
+    color: #F5F5F5;
 }
 
 #nav_button {
@@ -53,6 +75,12 @@ nav {
     font-weight: 500;
     line-height: 20px;
     letter-spacing: -5%;
+    transition: ease-in-out 300ms;
+}
+
+#nav_button:hover {
+    opacity: 80%;
+    cursor: pointer;
 }
 
 #nav_button img {
@@ -116,6 +144,12 @@ nav {
     line-height: 20px;
     letter-spacing: -5%;
     border: none;
+    transition: ease-in-out 300ms;
+}
+
+.hero_buttons .primary:hover {
+    opacity: 85%;
+    cursor: pointer;
 }
 
 .hero_buttons .primary img {
@@ -128,10 +162,18 @@ nav {
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
+    padding: 8px 12px;
     color: #0f0f0f;
     display: flex;
     align-items: center;
     border: none;
+    transition: ease-in-out 300ms;
+}
+
+.hero_buttons .secondary:hover {
+    background-color: #8447E9;
+    color: #F5F5F5;
+    cursor: pointer;
 }
 
 .hero_buttons .secondary img {
@@ -222,6 +264,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     gap: 64px 38px;
     margin-bottom: 64px;
+    cursor: pointer;
 }
 
 .service_img {
@@ -279,6 +322,12 @@ nav {
     line-height: 20px;
     letter-spacing: -0.05em;
     margin-top: -65px;
+    transition: ease-in-out 300ms;
+    cursor: pointer;
+}
+
+.service_button:hover {
+    background-color: #E1DBF6;
 }
 
 .service_button img {
@@ -385,6 +434,13 @@ nav {
     flex-direction: row;
     padding: 20px 32px;
     margin-top: 88px;
+    transition: ease-in-out 300ms;
+}
+
+#work_button:hover {
+    cursor: pointer;
+    background-color: #BDB0EC;
+    color: white;
 }
 
 #work_button img {
@@ -407,6 +463,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 32px 36px;
+    max-width: 800px;
+    margin: auto;
 }
 
 .customer_avi {
@@ -499,6 +557,10 @@ nav {
     width: auto;
 }
 
+.news_card:hover {
+    cursor: pointer;
+}
+
 .news_card3 {
     margin: 0;
 }
@@ -545,6 +607,12 @@ nav {
     color: #8447E9;
     display: flex;
     align-items: center;
+    transition: ease-in-out 300ms;
+}
+
+#news_content button:hover {
+    background-color: #BDB0EC;
+    cursor: pointer;
 }
 
 .news_button_icon {
@@ -586,6 +654,12 @@ nav {
     font-weight: 500;
     line-height: 29px;
     letter-spacing: -0.04em;
+    transition: ease-in-out 300ms;
+}
+
+.banner_button:hover {
+    background-color: #BDB0EC;
+    color: #8447E9;
 }
 
 .banner_text_button {
