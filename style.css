@@ -19,10 +19,6 @@ nav {
     color: #8447E9;
 }
 
-.nav_items {
-    
-}
-
 .nav_items ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -742,6 +738,56 @@ nav {
     line-height: 20px;
     letter-spacing: -0.05em;
     color: #F5F5F5;
+}
+
+@media (max-width: 1024px) {
+    #hero_content {
+        width: 70%;
+        max-width: 1300px;
+        margin: auto;
+    }
+
+    #hero {
+        padding: 80px 0 80px;
+    }
+
+    .brands_text_content h2 {
+        width: 85%;
+    }
+
+    #services {
+        padding: 88px 96px 136px;
+    }
+
+    .service_cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 64px 90px;
+    }
+
+    .service_button {
+        position: static;
+        margin-top: 24px;
+    }
+
+    #work {
+        padding: 136px 96px;
+    }
+
+    #customers {
+        padding: 120px 100px;
+    }
+
+    #banner {
+        padding: 88px 80px 50px;
+    }
+
+    #banner_content {
+        padding: 100px 92px;
+    }
+
+    #footer {
+        padding: 332px 84px 0;
+    }
 }
 
 * {
