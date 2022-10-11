@@ -785,7 +785,11 @@ nav {
     }
 
     #customers {
-        padding: 120px 100px;
+        padding: 120px 70px;
+    }
+
+    .customers_text_content {
+        margin-right: 57px;
     }
 
     #banner {
